@@ -31,7 +31,7 @@ def test_create_booking():
 
     assert response.status_code == 200
     assert response_body["booking"]["firstname"] == "John1"
-    assert response_body["booking"]["lastname"] == "Doe"
+    assert response_body["booking"]["lastname"] == "Doeeeee"
 
 
 def test_get_booking_by_id():
