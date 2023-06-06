@@ -30,7 +30,7 @@ def test_create_booking():
     response_body = response.json()
 
     assert response.status_code == 200
-    assert response_body["booking"]["firstname"] == "John"
+    assert response_body["booking"]["firstname"] == "John1"
     assert response_body["booking"]["lastname"] == "Doe"
 
 
