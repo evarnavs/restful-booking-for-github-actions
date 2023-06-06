@@ -8,7 +8,7 @@ def test_get_booking_ids():
     response = client.perform_get_request("/booking")
     response_body = response.json()
 
-    assert response.status_code == 200
+    assert response.status_code == 500
     assert response_body[0]["bookingid"] is not None
     assert isinstance(response_body, list)
 
